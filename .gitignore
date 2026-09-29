@@ -1,0 +1,47 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated project data
+downloads/
+vector_db/
+*_chunk[0-9]*.wav
+*_sv_*.wav
+/converted.wav
+
+# Build and package output
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+
+# Optional: uncomment these if you keep media files inside the project
+# *.mp3
+# *.mp4
+# *.wav
+# *.m4a
